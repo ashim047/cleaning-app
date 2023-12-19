@@ -1,0 +1,10 @@
+^C:\USERS\LENOVO\ONEDRIVE\DESKTOP\FLUTTER\ROYALDEVELOPMENT\BUILD\WINDOWS\CMAKEFILES\465337964690AE6455A477C88A6C7964\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/LENOVO/OneDrive/Desktop/Flutter/royaldevelopment/windows -BC:/Users/LENOVO/OneDrive/Desktop/Flutter/royaldevelopment/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/LENOVO/OneDrive/Desktop/Flutter/royaldevelopment/build/windows/royaldevelopment.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

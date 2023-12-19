@@ -1,0 +1,4 @@
+#Thu Dec 22 11:20:47 NPT 2022
+base.0=C\:\\Users\\LENOVO\\OneDrive\\Desktop\\Flutter\\royaldevelopment\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
